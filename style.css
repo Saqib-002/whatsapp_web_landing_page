@@ -55,7 +55,54 @@ svg{
 
 
 .chatbox{
-    background-color: blue;
     width: 50vw;
-    height:100vh
+    height:100vh;
+}
+.chatbox-head{
+    display:flex;
+    align-items:center;
+    background-color: lightgrey;
+    height: 10%;
+}
+#pofile-pic-chat svg{
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    margin: 0px 20px;
+}
+.profile-detail{
+    width:80%;
+    padding: 0px 20px;
+}
+.chat{
+    display:flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: end;
+    padding: 10px;
+    height: 80%;
+    background-color: rgb(183, 183, 183);
+}
+.message{
+    background-color: white;
+    padding: 5px;
+    border-radius:3px;
+    margin:5px 0px;
+}
+#new-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 0px;
+    background-color: white;
+    height:10%;
+}
+#new-message svg{
+    width:30px;
+}
+#new-message input{
+    width:75%;
+    outline:none;
+    padding:5px;
+    border-radius:3px;
 }
