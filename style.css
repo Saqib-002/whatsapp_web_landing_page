@@ -65,10 +65,9 @@ svg{
     height: 10%;
 }
 #pofile-pic-chat svg{
-    border-radius: 50%;
-    background-color: white;
-    padding: 5px;
+    width: 50px;
     margin: 0px 20px;
+
 }
 .profile-detail{
     width:80%;
