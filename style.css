@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 svg{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     cursor:pointer;
 }
 
@@ -16,10 +16,60 @@ svg{
 }
 
 .friend-list-container{
-    background-color: red;
+    background-color: rgb(244, 237, 237);
     width: 50vw;
     height:100vh
 }
+  
+  .friend-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .friend-list li {
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .friend-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .friend-pic {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 50px;
+  }
+  
+  .friend-pic img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .friend-details {
+    flex-grow: 1;
+  }
+  
+  .friend-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .friend-details p {
+    color: #a5a5a5;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .friend-time {
+    color: #a5a5a5;
+    text-align: right;
+  }
 
 .head{
     display: flex;
@@ -41,6 +91,7 @@ svg{
     align-items: center;
     background-color: white;
     border-color: lightgrey;
+    height: 10%;
 }
 .search-bar svg{
     width: 30px;
