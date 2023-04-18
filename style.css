@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+svg{
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+
+.main-container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+}
+
+.friend-list-container{
+    background-color: red;
+    width: 50vw;
+    height:100vh
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(231, 231, 231);
+}
+
+.profile-pic{
+    margin: 5px 10px;
+}
+
+.menu svg{
+    margin: 5px 8px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-color: lightgrey;
+}
+.search-bar svg{
+    width: 30px;
+}
+.search-bar input{
+    width: 90%;
+    padding:5px;
+    border-radius: 5px;
+    outline: none;
+    background-color:rgb(231, 231, 231);
+}
+
+
+.chatbox{
+    background-color: blue;
+    width: 50vw;
+    height:100vh
+}
