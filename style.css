@@ -101,7 +101,9 @@ svg{
     padding:5px;
     border-radius: 5px;
     outline: none;
-    background-color:rgb(231, 231, 231);
+    background-color:rgb(248, 245, 245);
+    border-color: #585858;
+    border-width: 1px;
 }
 
 
