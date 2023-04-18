@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 svg{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     cursor:pointer;
 }
 
@@ -20,12 +20,6 @@ svg{
     width: 50vw;
     height:100vh
 }
-
-
-  
-  
-
-  
   
   .friend-list {
     list-style: none;
@@ -97,6 +91,7 @@ svg{
     align-items: center;
     background-color: white;
     border-color: lightgrey;
+    height: 10%;
 }
 .search-bar svg{
     width: 30px;
